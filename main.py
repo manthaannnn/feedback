@@ -46,9 +46,9 @@ def save_feedback(feedback, filepath="feedback_data.json"):
         json.dump(data, f, indent=4)
 
 # Streamlit UI
-st.set_page_config(page_title="Photography Feedback Chatbot", layout="wide")
+st.set_page_config(page_title="Step Feedback Chatbot", layout="wide")
 
-st.title("📸 Photography Feedback Chatbot")
+st.title("📸 Step Feedback Chatbot")
 
 st.subheader("💬 Chat with our Feedback Bot")
 
